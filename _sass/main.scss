@@ -236,17 +236,15 @@ a {
 #landing {
   background: $bg-color;
   color: $text-color;
-  display: block;
-  height: 60%;
-  margin: 0.5rem;
-  padding: 0.5rem;
+  display: flex;
+  height: 100%;
+  
   text-align: center;
 }
 
 .landing-title {
   left: 0;
-  margin: 0.5rem;
-  padding: 0.5rem;
+ 
  
   right: 0;
   top: 2%;
