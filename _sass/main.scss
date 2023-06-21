@@ -236,7 +236,7 @@ a {
 #landing {
   background: $bg-color;
   color: $text-color;
-  position: relative; 
+  position: absolute; 
   height: 100%;
   
   text-align: center;
@@ -246,7 +246,6 @@ a {
   margin: 0;
   position: absolute;
   top: 10%;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 0;
   right: 0;
