@@ -59,6 +59,8 @@ a {
   }
 }
 
+
+
 .highlight-title {
   color: $primary-color;
   text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
@@ -79,6 +81,16 @@ a {
 }
 
 /* Layout */
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
 
 .layout {
   margin: 0.5rem;
