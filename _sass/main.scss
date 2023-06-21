@@ -236,7 +236,7 @@ a {
 #landing {
   background: $bg-color;
   color: $text-color;
-  display: flex;
+  position: relative; 
   height: 100%;
   
   text-align: center;
