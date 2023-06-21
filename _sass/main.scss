@@ -237,7 +237,7 @@ a {
   background: $bg-color;
   color: $text-color;
   position: relative; 
-  height: 800px;
+  height: 100%;
   
   text-align: center;
 }
@@ -247,7 +247,7 @@ a {
   position: absolute;
  
   right: 0;
-  top: 0;
+  top: -300px;
 }
 
 .landing-icons {
