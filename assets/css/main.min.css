@@ -190,7 +190,8 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
     height: 100%;
-    text-align: center
+    text-align: center;
+    overflow-y: hidden;
 }
 
 #landing,
