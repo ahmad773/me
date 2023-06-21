@@ -161,7 +161,7 @@ a {
     height: 6rem;
     left: 50%;
     position: absolute;
-    top: 10%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 6rem;
   }
@@ -236,18 +236,21 @@ a {
 #landing {
   background: $bg-color;
   color: $text-color;
-  
+  position: relative; 
   height: 100%;
   
   text-align: center;
 }
 
 .landing-title {
-  left: 0;
+  margin: 0;
   position: absolute;
- 
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
   right: 0;
-  top: -300px;
+  
 }
 
 .landing-icons {
